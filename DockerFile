@@ -22,4 +22,4 @@ RUN apk add clang
 
 RUN apk add alpine-sdk
 
-RUN apk add libxcb xcb-util
+RUN apk add libxcb-dev libx11-dev libxrandr-dev libxinerama-dev libxcursor-dev libxi-dev
